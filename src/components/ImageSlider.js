@@ -8,11 +8,9 @@ const featuredProducts = [
   "/images/hero_3.jpg",
   "/images/hero_4.jpg",
   "/images/hero_5.jpg",
-  "/images/hero_6.jpg",
 ];
 let count = 0;
 let slideInterval;
-
 export default function ImageSlider() {
   const [current, setCurrent] = useState(false);
 
