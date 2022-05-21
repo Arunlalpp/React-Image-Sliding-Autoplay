@@ -29,7 +29,7 @@ export default function ImageSlider() {
     return () => {
       pauseSlider();
     };
-  }, []);
+  }, [ ]);
   const startSlider = () => {
     slideInterval = setInterval(() => {
       handleOnNextClick();
