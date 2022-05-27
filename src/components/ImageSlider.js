@@ -59,6 +59,7 @@ export default function ImageSlider() {
       </div>
       <FaArrowAltCircleLeft
         className="left-arrow"
+        
         onClick={handleOnPrevClick}
       />
       <FaArrowAltCircleRight
